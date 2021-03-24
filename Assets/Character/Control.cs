@@ -28,7 +28,7 @@ public class Control : MonoBehaviour
             moveDirection = transform.TransformDirection(moveDirection);
             moveDirection *= speed;
             // this.rotation = new Vector3(0, Input.GetAxis("Horizontal") * rotationSpeed, 0);
-            this.rotation = new Vector3(0, Input.GetAxis("Horizontal") / 2, 0);
+            this.rotation = new Vector3(0, Input.GetAxis("Horizontal") / 3, 0);
             if(Input.GetKey(KeyCode.UpArrow)){
                 GetComponent<Animation>().Play("Run");
             }   
