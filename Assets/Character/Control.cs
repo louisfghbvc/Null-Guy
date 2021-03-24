@@ -21,7 +21,7 @@ public class Control : MonoBehaviour
     void Update()
     {
         CharacterController controller = GetComponent<CharacterController>();
-        
+        // this.rotation = new Vector3(0,0,0);
         if (controller.isGrounded) {
             // moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             moveDirection = new Vector3(0, 0, Input.GetAxis("Vertical"));
@@ -34,6 +34,10 @@ public class Control : MonoBehaviour
             }   
             if (Input.GetButton("Jump"))
                 moveDirection.y = jumpSpeed;
+        }
+        else if(this.transform.position[1] < 0){
+            this.transform.position = new Vector3(this.transform.position[0],15,-13.8f);
+            return;
         }
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
