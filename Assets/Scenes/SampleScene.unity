@@ -1048,13 +1048,13 @@ Animation:
   m_GameObject: {fileID: 919132149505353959}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: -203655887218126122, guid: c58766b80dac25442943df8cb5c227cb,
+  m_Animation: {fileID: -203655887218126122, guid: d9db8486b7919c443a73402bc0f7a234,
     type: 3}
   m_Animations:
-  - {fileID: -203655887218126122, guid: c58766b80dac25442943df8cb5c227cb, type: 3}
+  - {fileID: -203655887218126122, guid: d9db8486b7919c443a73402bc0f7a234, type: 3}
   - {fileID: 6239023493059609761, guid: bb18d41fdc3f39d47afab56a435fed4d, type: 3}
   m_WrapMode: 0
-  m_PlayAutomatically: 0
+  m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 1
 --- !u!4 &2325615478314709764
