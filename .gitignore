@@ -6,3 +6,4 @@ Temp/UnityLockfile
 *.dwlt
 *.meta
 *.backup
+*.log
