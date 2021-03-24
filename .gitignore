@@ -2,8 +2,5 @@ Temp/UnityLockfile
 *.dll
 *.log
 *.pdb
-*.json
 *.dwlt
-*.meta
 *.backup
-*.log
